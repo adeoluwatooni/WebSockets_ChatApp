@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/1.7.3/socket.io.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
   <link rel="stylesheet" href="./index.css">
   <title>Web-Sockets-Practice</title>
 </head>
@@ -13,12 +13,12 @@
       <h2>WebSockets Chat App</h2>
 
       <div id="chat-window">
-        <div id="output"></div>
-        <div id="input"></div>
+        <div id="outgoingMessage"></div>
+        <div id="incomingMessage"></div>
         <div id="feedback"></div>
       </div>
 
-      <select name="username" id="username" >
+      <select name="usernuserame" id="username" >
         <option value="Dayo">Dayo</option>
         <option value="Tolu">Tolu</option>
         <option value="Kunle">Kunle</option>
@@ -32,6 +32,7 @@
       
     </div>
 
-  <script src="./index.js"></script>
+  
 </body>
+<script src="./index.js"></script>
 </html>
