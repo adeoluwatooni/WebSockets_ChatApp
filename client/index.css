@@ -24,6 +24,17 @@ h2{
   background-image: url('./images/whatsApp.jpeg');
 }
 
+
+#incomingMessage{
+  background-color:aliceblue ;
+  width: 250px;
+}
+
+#outgoingMessage{
+  background-color:#e9e9e9 ;
+  width: 250px;
+}
+
 #incomingMessage p{
   padding: 14px 0px;
   margin: 0 20px;

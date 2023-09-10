@@ -9,7 +9,6 @@ const username = document.getElementById('username')
 const message = document.getElementById('message')
 const sendBtn = document.getElementById('send')
 
-
 // emitting events
 sendBtn.addEventListener('click', (event) => {
   event.preventDefault()
@@ -22,7 +21,6 @@ sendBtn.addEventListener('click', (event) => {
   message.value=''
 })
 
-
 // Listen to events
 socket.on('chat', (data) => {
   if (data.sender === username.value) {
@@ -32,6 +30,3 @@ socket.on('chat', (data) => {
     incomingMessage.innerHTML += `<p><strong> ${data.sender}:</strong> ${data.message} </p>`;
   }
 })
-
-
-//incomingMessage.innerHTML += `<p><strong>${data.sender}</strong></p>`
